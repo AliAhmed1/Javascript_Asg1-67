@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        img {
+            height: 200px;
+            width: 200px;
+        }
+
+        td {
+            list-style: none;
+            padding: 5px;
+            margin: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <a><img onclick="alertbox()"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR8QIuu8nnxrg0wR0K8jGpac0FMMG3s1Ijr8g&usqp=CAU"
+            alt=""></a>
+
+    <a> <img onclick="alertbox()"
+            src="https://cnet3.cbsistatic.com/img/G3lKm48-2ubzl6aisPLE1YRq2xo=/940x0/2020/05/07/9f01c55c-882d-47d5-a1c3-caee201af3e3/safe-android-phone-5.jpg"
+            alt=""></a>
+
+    <a><img onclick="alertbox()"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT-wKLYZNSCi-WomXUO3y4aGdz3uvJtatEnmQ&usqp=CAU"
+            alt=""></a>
+
+    <a><img onmouseout=src='https:encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqnNNTVtS0o8EF_jESffqn_JPPEMv7eWzZ9A&usqp=CAU'
+            onclick="alertbox()"
+            onmouseover="src='https:encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR8QIuu8nnxrg0wR0K8jGpac0FMMG3s1Ijr8g&usqp=CAU' "
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqnNNTVtS0o8EF_jESffqn_JPPEMv7eWzZ9A&usqp=CAU"
+            alt=""></a>
+
+
+    <br>
+
+    <table id="myTable">
+        <tr>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Class</th>
+        </tr>
+        <tr id="row">
+            <td>0</td>
+            <td>john</td>
+            <td>10</td>
+            <td><button onclick="deletebtn1()">Delete</button></td>
+        </tr>
+        <tr id="row">
+            <td>1</td>
+            <td>Doe</td>
+            <td>9</td>
+            <td><button onclick="deletebtn2()">Delete</button></td>
+        </tr>
+        <tr id="row">
+            <td>2</td>
+            <td>Mark</td>
+            <td>10</td>
+            <td><button onclick="deletebtn3()">Delete</button></td>
+        </tr>
+        <tr id="row">
+            <td>3</td>
+            <td>james</td>
+            <td>8</td>
+            <td><button onclick="deletebtn4()">Delete</button></td>
+        </tr>
+      
+    </table>
+
+    <p>You have clicked <span id="num">0</span> times</p>
+    <button onclick="inclick()">increse click</button>
+    <button onclick="declick()">decrease click</button>
+
+</body>
+<script src="app.js"></script>
+
+</html>
